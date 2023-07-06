@@ -1,6 +1,5 @@
 package thread;
 
-import com.sun.jmx.snmp.tasks.ThreadService;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ExecutorService;
