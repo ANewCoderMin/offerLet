@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
  * @author Min
  * @create 2021-05-09 21:16
  */
-public class AllSolution {
+public class AllSolution{
 
     /**
      * 剑指 Offer 12. 矩阵中的路径
