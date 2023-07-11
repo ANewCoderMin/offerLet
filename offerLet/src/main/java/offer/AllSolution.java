@@ -1,10 +1,7 @@
 package offer;
 
 import java.util.*;
-import java.util.concurrent.Executors;
-import java.util.concurrent.FutureTask;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
 /**
  * @author Min
@@ -141,5 +138,37 @@ public class AllSolution{
         System.out.println(Arrays.toString(allSolution.permutation("qqe")));
         Executors.newSingleThreadExecutor();
     }
+
+
+
+
+
+
+
+    public static void solution(String[] args) {
+        System.out.println("Hello World!");
+    }
+
+
+
+
+    private Map<String, Long> map = new HashMap<>();
+
+    public synchronized void increase(String key){
+        Long tmp = map.get(key);
+        if (tmp == null){
+            tmp = 1l;
+        }else {
+            map.put(key, ++tmp);
+        }
+    }
+    public Long get(String key){
+        return map.get(key);
+    }
+    public synchronized void set(String key, Long count){
+        map.put(key, count);
+    }
+
+
 
 }
