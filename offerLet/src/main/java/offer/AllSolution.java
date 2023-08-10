@@ -1,7 +1,7 @@
 package offer;
 
 import java.util.*;
-import java.util.concurrent.*;
+import java.util.concurrent.Executors;
 
 /**
  * @author Min
